@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Component Library</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
     <h1>Shashank's Component Library</h1>
     <p>This is a website for componet library to display projects.</p>
@@ -20,24 +22,24 @@
 
     <hr />
 
-    <h2>@container</h2>
+    <h2 class="container">@container</h2>
     <h3>fluid container</h3>
     <div>This is a fluid container covering till the end of page</div>
 
-    <h3>center container</h3>
+    <h3 class="container-center">center container</h3>
     <div>This is a center container cover the specified width</div>
 
     <hr />
-    <h2>@links</h2>
-    <a href="/"> Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <h2 class="link">@links</h2>
+    <a class="link link-primary" href="/"> Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
 
     <hr />
 
-    <h2>@list</h2>
+    <h2 class="list">@list</h2>
 
     <h3>Unordered List</h3>
-    <ul>
+    <ul class="list list-non-bullet">
       <li>Item One</li>
       <li>Item Two</li>
       <li>Item Three</li>
@@ -74,13 +76,16 @@
         </li>
       </ul>
     </nav>
+
     <hr />
+
     <h2>@header</h2>
     <header>
       <img src="images/img1.svg" />
       <h1>Heading inside here</h1>
     </header>
     <hr />
+    
     <h2>@section</h2>
     <section>
       <h3>Normal Section</h3>
@@ -91,7 +96,8 @@
       <div>this will have grey background</div>
     </section>
 
-    <hr>
+    <hr />
+
     <h2>@footer</h2>
     <footer>
       <div>some small heading inside footer</div>
